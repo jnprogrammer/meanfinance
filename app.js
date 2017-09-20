@@ -10,7 +10,9 @@ var bodyParser = require('body-parser');
 
 var routes = require('./api/routes');
 
-app.set('port', process.env.PORT);
+//fixed connection problem
+app.set('port', 3000);
+//app.set('port', process.env.PORT);
 
 //Trying to fork!!!!
 app.use(function(req, res, next) {
