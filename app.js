@@ -1,4 +1,29 @@
 //Pull Request Testing
+//var apiKey = Ug5F7RzSzxgwD2PBxCMm
+
+// $(document).ready(function(){
+//   $("getStockInfo").click(function(){
+//     var url= curl "https://www.quandl.com/api/v3/datasets/WIKI/FB.json?api_key=Ug5F7RzSzxgwD2PBxCMm";
+  
+//   $.ajax(url: url),
+  
+//   iWork: function(response){
+//     $("#name").html(dataset.database_code);
+//     $("#description").html(dataset.description);
+//     $("#newest_available_date").html(dataset.newest_available_date);
+//     console.log("It's Aliiiiive!");
+//   }
+    
+    
+    
+    
+//   });
+  
+  
+  
+// })
+
+
 
 require('./api/data/db.js');
 var express = require('express');
