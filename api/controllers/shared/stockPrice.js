@@ -1,6 +1,10 @@
+//**deleted key.js on GitHub
+//this is annoying
+var key = require('./key.js');
+
 var https = require('https');
-//Got new API key to retrieve information faster
-var _apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&apikey=GI6ER1J07FHQI7K8&outputsize=compact"
+
+var _apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&apikey=" + key + "&outputsize=compact"
 
 module.exports.getPrice = function(req, res, symbol) {
   
