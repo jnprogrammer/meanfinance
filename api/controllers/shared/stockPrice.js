@@ -1,3 +1,6 @@
+
+var key = require('./key.js');
+
 var https = require('https');
 var _apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&apikey=3KZ8QLDN95EF7RNO&outputsize=compact"
 
