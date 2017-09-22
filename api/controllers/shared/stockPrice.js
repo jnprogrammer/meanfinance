@@ -3,6 +3,7 @@
 var key = require('./key.js');
 
 var https = require('https');
+
 var _apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&apikey=" + key + "&outputsize=compact"
 
 module.exports.getPrice = function(req, res, symbol) {
