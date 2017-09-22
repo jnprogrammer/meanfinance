@@ -1,5 +1,6 @@
 var https = require('https');
-var _apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&apikey=3KZ8QLDN95EF7RNO&outputsize=compact"
+//Got new API key to retrieve information faster
+var _apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&apikey=GI6ER1J07FHQI7K8&outputsize=compact"
 
 module.exports.getPrice = function(req, res, symbol) {
   
